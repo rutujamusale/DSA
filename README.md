@@ -21,4 +21,9 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0066-plus-one](https://github.com/rutujamusale/DSA/tree/master/0066-plus-one) |
+| [0136-single-number](https://github.com/rutujamusale/DSA/tree/master/0136-single-number) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0136-single-number](https://github.com/rutujamusale/DSA/tree/master/0136-single-number) |
 <!---LeetCode Topics End-->
