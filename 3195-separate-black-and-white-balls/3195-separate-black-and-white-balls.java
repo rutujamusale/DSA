@@ -7,7 +7,7 @@ class Solution {
             if (c == '1') {
                 zeros++;  // count how many '1's are before current position
             } else {
-                steps += zeros; // this '1' must jump over all those zeros
+                steps += zeros; // this '0' must jump over all those zeros
             }
         }
 
