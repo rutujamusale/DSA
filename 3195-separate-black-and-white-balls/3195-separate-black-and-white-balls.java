@@ -1,17 +1,16 @@
 class Solution {
     public long minimumSteps(String s) {
-        char[] sp = s.toCharArray();
-        long count = 0;
+        long steps = 0;
         long zeros = 0;
 
-        for (int i = 0; i < sp.length; i++) {
-            if (sp[i] == '1') {
-                zeros++;  // count how many zeros are on the left so far
+        for (char c : s.toCharArray()) {
+            if (c == '1') {
+                zeros++;  // count how many '0's are before current position
             } else {
-                count += zeros; // each '1' needs to cross these zeros
+                steps += zeros; // this '1' must jump over all those zeros
             }
         }
 
-        return count;
+        return steps;
     }
 }
