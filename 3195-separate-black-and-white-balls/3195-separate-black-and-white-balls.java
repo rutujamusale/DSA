@@ -5,7 +5,7 @@ class Solution {
 
         for (char c : s.toCharArray()) {
             if (c == '1') {
-                zeros++;  // count how many '0's are before current position
+                zeros++;  // count how many '1's are before current position
             } else {
                 steps += zeros; // this '1' must jump over all those zeros
             }
