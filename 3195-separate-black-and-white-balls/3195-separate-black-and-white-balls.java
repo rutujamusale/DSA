@@ -3,11 +3,12 @@ class Solution {
         long steps = 0;
         long zeros = 0;
 
-        for (char c : s.toCharArray()) {
-            if (c == '1') {
-                zeros++;  // count how many '1's are before current position
+        for (int i = s.length() - 1; i >= 0; i--) {
+            char c = s.charAt(i);
+            if (c == '0') {
+                zeros++; 
             } else {
-                steps += zeros; // this '0' must jump over all those zeros
+                steps += zeros; 
             }
         }
 
