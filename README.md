@@ -96,4 +96,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1078-remove-outermost-parentheses](https://github.com/rutujamusale/DSA/tree/master/1078-remove-outermost-parentheses) |
+## Database
+|  |
+| ------- |
+| [0175-combine-two-tables](https://github.com/rutujamusale/DSA/tree/master/0175-combine-two-tables) |
 <!---LeetCode Topics End-->
