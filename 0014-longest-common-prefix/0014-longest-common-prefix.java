@@ -1,0 +1,18 @@
+class Solution {
+    public String longestCommonPrefix(String[] strs) {
+        if(strs == null || strs.length == 0){
+            return "";
+        }
+        String prefx = strs[0]; 
+        for(int i =1;i<strs.length;i++){
+            while(strs[i].indexOf(prefx) !=0){
+                prefx = prefx.substring(0,prefx.length()-1); 
+                
+                if(prefx.isEmpty()){
+                    return "";
+                }
+            } 
+        }
+         return prefx;
+    }
+}
